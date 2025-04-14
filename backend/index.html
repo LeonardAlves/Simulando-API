@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Adopet 🐾</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2d6a4f;
+    }
+
+    ul#lista-pets {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+
+    ul#lista-pets li {
+      background-color: #e9f5f2;
+      border-left: 5px solid #40916c;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: background-color 0.3s;
+    }
+
+    ul#lista-pets li:hover {
+      background-color: #d8f3dc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🐶🐱 Animais para Adoção</h1>
+  <ul id="lista-pets"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+ul#lista-pets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 1000px;
+  }
+  
+  ul#lista-pets li {
+    width: 200px;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-size: 16px;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  ul#lista-pets li:hover {
+    transform: scale(1.05);
+  }
+  
+  ul#lista-pets li::before {
+    content: "📸";
+    font-size: 24px;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+  }
+  
