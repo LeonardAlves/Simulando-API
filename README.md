@@ -1,4 +1,4 @@
-Add files via upload
+
 🐶🐱 Exercício pratico para recuperar dados de um banco de dados de animais para doação.
 
 No arquivo Script.js temos
